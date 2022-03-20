@@ -74,7 +74,7 @@ module.exports = {
 Loading CSS files from CDN is not recommended for production. It's better to install Tailwind and daisyUI as Nodejs dependencies so you can config/customize everything, and purge unused styles.
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/daisyui@2.8.0/dist/full.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.11.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 ```
 
@@ -222,6 +222,7 @@ Read the documents for more info:
   - [speckyboy](https://speckyboy.com/weekly-news-for-designers-594/)
   - [dailydev](https://app.daily.dev/posts/-4OPGw0te)
   - [Future Tech Blog (Japanese)](https://future-architect.github.io/articles/20211124a/)
+  - [Adding Tailwind and Daisy UI to SvelteKit](https://dev.to/brewhousedigital/adding-tailwind-and-daisy-ui-to-sveltekit-2hk5)
 - Youtube videos
   - [Supabase & Sveltekit - Build Twitter in 75 minutes](https://www.youtube.com/watch?v=mPQyckogDYc)
   - [Setup the Best Frontend JavaScript Stack - Svelte, Vite, TailwindCSS and DaisyUI](https://www.youtube.com/watch?v=mEBPN_9jTAE)

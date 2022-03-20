@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.11.0](https://github.com/saadeghi/daisyui/compare/v2.10.0...v2.11.0) (2022-03-18)
+
+
+### Features
+
+* add new responsive modifier classes for `modal`: `modal-bottom` and `modal-middle` (fixes [#616](https://github.com/saadeghi/daisyui/issues/616)) ([9e5313f](https://github.com/saadeghi/daisyui/commit/9e5313f0fe2b3bc8a3f4bb27c76ddf93fed2637b))
+* indicator positions are now responsive and accept sm:, md:, etc. prefixes ([5e7ac34](https://github.com/saadeghi/daisyui/commit/5e7ac344afce6b06318473fb029fcd598819a8d9))
+
+
+### Bug Fixes
+
+* [#605](https://github.com/saadeghi/daisyui/issues/605) ([f68fc08](https://github.com/saadeghi/daisyui/commit/f68fc085360cdaf592f417f3e39eec488df60385))
+
+## [2.10.0](https://github.com/saadeghi/daisyui/compare/v2.8.0...v2.10.0) (2022-03-17)
+
+
+### Bug Fixes
+
+* [#601](https://github.com/saadeghi/daisyui/issues/601) ([462920f](https://github.com/saadeghi/daisyui/commit/462920f3344b7df03ce5394e0f21d8f930dfc32f))
+* [#615](https://github.com/saadeghi/daisyui/issues/615) ([e8f6b1b](https://github.com/saadeghi/daisyui/commit/e8f6b1b2b295df161a8643c04f53363c26842bdd))
+* [#626](https://github.com/saadeghi/daisyui/issues/626) ([b7da2b6](https://github.com/saadeghi/daisyui/commit/b7da2b617db6a57a632c7e90bb41bd4bf2a6f1c5))
+
+## [2.9.0](https://github.com/saadeghi/daisyui/compare/v2.8.0...v2.9.0) (2022-03-16)
+
+
+### Bug Fixes
+
+* [#578](https://github.com/saadeghi/daisyui/issues/578) ([11a5781](https://github.com/saadeghi/daisyui/commit/11a5781864fd39ee3d8111bc845f8cd3c9123eab))
+* [#601](https://github.com/saadeghi/daisyui/issues/601) ([462920f](https://github.com/saadeghi/daisyui/commit/462920f3344b7df03ce5394e0f21d8f930dfc32f))
+* [#615](https://github.com/saadeghi/daisyui/issues/615) ([e8f6b1b](https://github.com/saadeghi/daisyui/commit/e8f6b1b2b295df161a8643c04f53363c26842bdd))
+
 ## [2.8.0](https://github.com/saadeghi/daisyui/compare/v2.7.0...v2.8.0) (2022-03-13)
 
 
