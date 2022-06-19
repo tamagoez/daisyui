@@ -1,6 +1,7 @@
 <script>
   import { readEnv } from "$lib/util"
   export let slot
+  import Sponsors from "@components/Sponsors.svelte"
 </script>
 
 {#if slot === "adesense-1"}
@@ -62,10 +63,15 @@
     </div>
   </div>
 {:else if slot === "carbon1"}
-  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAI423U&placement=daisyuicom" id="_carbonads_js"></script>
+  <div class="w-full min-w-[330px] max-w-[350px] h-[100px]">
+    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAI423U&placement=daisyuicom" id="_carbonads_js"></script>
+  </div>
 {:else if slot === "carbon2"}
   <div>
-    <div class="sticky top-24 xl:mt-32 my-6 xl:my-0">
+    <div class="sticky top-20 xl:mt-32 my-6 xl:my-0 xl:w-[130px]">
+      <div class="hidden xl:block ">
+        <Sponsors />
+      </div>
       <div class="mx-auto items-center carbonads-responsive flex justify-center">
         <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAI423U&placement=daisyuicom" id="_carbonads_js"></script>
       </div>
@@ -83,7 +89,7 @@
   }
   #carbonads {
     display: flex;
-    max-width: 330px;
+    max-width: 350px;
     color: hsla(var(--bc));
     background-color: hsla(var(--b2));
     box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, 0.1);
@@ -115,10 +121,10 @@
     display: block;
   }
   #carbonads .carbon-text {
-    font-size: 13px;
+    font-size: 12px;
     padding: 10px;
     margin-bottom: 16px;
-    line-height: 1.5;
+    line-height: 1.3;
     text-align: left;
   }
   #carbonads .carbon-poweredby {
@@ -137,6 +143,10 @@
     right: 0;
   }
   @media only screen and (min-width: 1280px) {
+    .carbon-text {
+      font-size: 12px;
+      padding: 8px 10px 4px 10px;
+    }
     .carbonads-responsive #carbonads {
       max-width: 130px;
     }

@@ -2,6 +2,139 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.15.4](https://github.com/saadeghi/daisyui/compare/v2.15.3...v2.15.4) (2022-06-15)
+
+### [2.15.3](https://github.com/saadeghi/daisyui/compare/v2.15.2...v2.15.3) (2022-06-10)
+
+### [2.15.2](https://github.com/saadeghi/daisyui/compare/v2.15.1...v2.15.2) (2022-05-30)
+
+
+### Bug Fixes
+
+* [#816](https://github.com/saadeghi/daisyui/issues/816) ([b16ec4f](https://github.com/saadeghi/daisyui/commit/b16ec4f25d3dd73bb848c2cee23147ad05f0d22d))
+* [#823](https://github.com/saadeghi/daisyui/issues/823) ([7db4885](https://github.com/saadeghi/daisyui/commit/7db48850a0e47fc83e9b28c3f4f6aa2d15a11872))
+
+### [2.15.1](https://github.com/saadeghi/daisyui/compare/v2.15.0...v2.15.1) (2022-05-24)
+
+
+### Bug Fixes
+
+* [#807](https://github.com/saadeghi/daisyui/issues/807) ([e81fda2](https://github.com/saadeghi/daisyui/commit/e81fda2db63ffc758597e16f08a0280b9f4d60e3))
+
+## [2.15.0](https://github.com/saadeghi/daisyui/compare/v2.14.4...v2.15.0) (2022-05-15)
+
+### [2.14.4](https://github.com/saadeghi/daisyui/compare/v2.14.3...v2.14.4) (2022-05-15)
+
+
+### Bug Fixes
+
+* [#739](https://github.com/saadeghi/daisyui/issues/739) ([2bb7e57](https://github.com/saadeghi/daisyui/commit/2bb7e57864e086313d6ed04769785d3b8db2dc64))
+* tabindex=0 breaks collapse with checkbox on safari ([#784](https://github.com/saadeghi/daisyui/issues/784)) ([f60c010](https://github.com/saadeghi/daisyui/commit/f60c0100d03ebce37ef936bc3666bdebedf42633))
+
+### [2.14.3](https://github.com/saadeghi/daisyui/compare/v2.14.2...v2.14.3) (2022-04-30)
+
+
+### Bug Fixes
+
+* [#721](https://github.com/saadeghi/daisyui/issues/721) ([3259d00](https://github.com/saadeghi/daisyui/commit/3259d00c1b8eb112f2a611dca7d246a08698815d))
+* [#753](https://github.com/saadeghi/daisyui/issues/753) ([2fb28c4](https://github.com/saadeghi/daisyui/commit/2fb28c474859acbea19461fd9ba8090d4f9e567c))
+* [#766](https://github.com/saadeghi/daisyui/issues/766) ([ac58329](https://github.com/saadeghi/daisyui/commit/ac58329143d87d9f6f3f5cc590b1deda15663a84))
+
+### [2.14.2](https://github.com/saadeghi/daisyui/compare/v2.14.1...v2.14.2) (2022-04-23)
+
+
+### Bug Fixes
+
+* [#736](https://github.com/saadeghi/daisyui/issues/736) ([3946525](https://github.com/saadeghi/daisyui/commit/394652539ccaeb8b368bd0a7010ba495cbc105d2))
+* [#740](https://github.com/saadeghi/daisyui/issues/740) ([d133cfd](https://github.com/saadeghi/daisyui/commit/d133cfd3c0ed6513bf318b75d3b540c12aa5e65b))
+
+### [2.14.1](https://github.com/saadeghi/daisyui/compare/v2.14.0...v2.14.1) (2022-04-18)
+
+
+### Bug Fixes
+
+* [#726](https://github.com/saadeghi/daisyui/issues/726) ([#728](https://github.com/saadeghi/daisyui/issues/728)) ([5f765f1](https://github.com/saadeghi/daisyui/commit/5f765f11ab0c40597fa9ca28199159f042581dd4))
+* Change `cupcake` for `cmyk` ([#724](https://github.com/saadeghi/daisyui/issues/724)) ([0546093](https://github.com/saadeghi/daisyui/commit/054609306728e79394fa891b0aa2e69b14e403e1))
+
+## [2.14.0](https://github.com/saadeghi/daisyui/compare/v2.13.6...v2.14.0) (2022-04-15)
+
+
+### Bug Fixes
+
+* [#684](https://github.com/saadeghi/daisyui/issues/684) ([d8533f5](https://github.com/saadeghi/daisyui/commit/d8533f51f57cc12304530f923afe145397061b17))
+* [#693](https://github.com/saadeghi/daisyui/issues/693) ([10a34c7](https://github.com/saadeghi/daisyui/commit/10a34c79dbc5f6969a04802b26de17a16b3a3ea2))
+* [#704](https://github.com/saadeghi/daisyui/issues/704) ([b604e46](https://github.com/saadeghi/daisyui/commit/b604e467a1bdc054b9e4e2e7d0576b68e5df781b))
+* [#713](https://github.com/saadeghi/daisyui/issues/713) ([0db6d9f](https://github.com/saadeghi/daisyui/commit/0db6d9f6b96faf1e64da3089b5a9b6f2a0294552))
+
+### [2.13.6](https://github.com/saadeghi/daisyui/compare/v2.13.5...v2.13.6) (2022-04-02)
+
+
+### Bug Fixes
+
+* [#666](https://github.com/saadeghi/daisyui/issues/666) 🔥😈🔥 ([fb69933](https://github.com/saadeghi/daisyui/commit/fb69933b023208c62f6e9b03de386b194790aba2))
+* [#667](https://github.com/saadeghi/daisyui/issues/667) ([5d66013](https://github.com/saadeghi/daisyui/commit/5d66013814864a7db43d0c9f1f0385cd636b61c3))
+* [#675](https://github.com/saadeghi/daisyui/issues/675) ([8e7887b](https://github.com/saadeghi/daisyui/commit/8e7887b90a695b236077cd61e4a3e31513a9e954))
+
+### [2.13.5](https://github.com/saadeghi/daisyui/compare/v2.13.4...v2.13.5) (2022-03-31)
+
+
+### Bug Fixes
+
+* `drawer-end` issue when there's another drawer inside it ([d6e8b9c](https://github.com/saadeghi/daisyui/commit/d6e8b9c5ed9c129ca0a75d2e592d9637132af300))
+
+### [2.13.4](https://github.com/saadeghi/daisyui/compare/v2.13.3...v2.13.4) (2022-03-28)
+
+
+### Bug Fixes
+
+* [#655](https://github.com/saadeghi/daisyui/issues/655) ([9b8f5ae](https://github.com/saadeghi/daisyui/commit/9b8f5ae639e75be8d3b93c1dffed76fa5288ae92))
+
+### [2.13.3](https://github.com/saadeghi/daisyui/compare/v2.13.2...v2.13.3) (2022-03-26)
+
+### [2.13.2](https://github.com/saadeghi/daisyui/compare/v2.13.1...v2.13.2) (2022-03-25)
+
+
+### Bug Fixes
+
+* [#648](https://github.com/saadeghi/daisyui/issues/648) ([12c063a](https://github.com/saadeghi/daisyui/commit/12c063a02b41cae37bd520cc18c11fed006643d7))
+
+### [2.13.1](https://github.com/saadeghi/daisyui/compare/v2.12.0...v2.13.1) (2022-03-25)
+
+
+### Bug Fixes
+
+* [#651](https://github.com/saadeghi/daisyui/issues/651) ([52baf6b](https://github.com/saadeghi/daisyui/commit/52baf6b3f83faf2e33034eeef8c3e98a020753b6))
+
+## [2.13.0](https://github.com/saadeghi/daisyui/compare/v2.12.0...v2.13.0) (2022-03-24)
+
+
+### Features
+
+* Improve color contrast on `aqua` ,`emerald` ,`light` themes
+
+## [2.12.0](https://github.com/saadeghi/daisyui/compare/v2.11.1...v2.12.0) (2022-03-24)
+
+
+### Features
+
+* drawer now has `width:100%` and `height:100svh` and  by default (if supported). fixes: [#313](https://github.com/saadeghi/daisyui/issues/313) on iOS 15.4+ ([c8b104a](https://github.com/saadeghi/daisyui/commit/c8b104af724761093612878ba283aa5f16756f0c))
+* now every element with `data-theme` will have `base-100` color for background and `base-content` color for text by default. ([216d115](https://github.com/saadeghi/daisyui/commit/216d115acf6c30711418445764b9c4a9628e3462))
+* Improve `base-200` and `base-300` colors on `light` theme
+
+### Bug Fixes
+
+* [#610](https://github.com/saadeghi/daisyui/issues/610) ([359556c](https://github.com/saadeghi/daisyui/commit/359556c3adf7e306896bad1f17f7cf9724b3fc68))
+* [#643](https://github.com/saadeghi/daisyui/issues/643) ([7d3aaf3](https://github.com/saadeghi/daisyui/commit/7d3aaf3f2383a81d67221e407acf515334a35574))
+* [#644](https://github.com/saadeghi/daisyui/issues/644) ([ee05252](https://github.com/saadeghi/daisyui/commit/ee05252867e9afdc237c8219a64cda44a5e9803a))
+* [#645](https://github.com/saadeghi/daisyui/issues/645) ([fffb937](https://github.com/saadeghi/daisyui/commit/fffb937b1bece917543ca1d72c12adb65ba4104e))
+
+### [2.11.1](https://github.com/saadeghi/daisyui/compare/v2.11.0...v2.11.1) (2022-03-22)
+
+
+### Bug Fixes
+
+* [#636](https://github.com/saadeghi/daisyui/issues/636) ([38b743b](https://github.com/saadeghi/daisyui/commit/38b743b433922a3fd78f6001599214671722d11e))
+
 ## [2.11.0](https://github.com/saadeghi/daisyui/compare/v2.10.0...v2.11.0) (2022-03-18)
 
 

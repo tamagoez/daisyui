@@ -52,6 +52,10 @@
   function closeDrawer() {
     checked = ""
   }
+
+  function openDrawer() {
+    checked = true
+  }
 </script>
 
 <svelte:head>
@@ -60,7 +64,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap&text=daisyUIThemostpopular,freeandopen-sourceTailwindCSScomponentlibrary" rel="stylesheet" />
 </svelte:head>
 
-<div class={`bg-base-100 drawer h-screen ${pagesThatDontNeedSidebar.includes($page.url.pathname) ? "" : "drawer-mobile"}`}>
+<div class={`bg-base-100 drawer ${pagesThatDontNeedSidebar.includes($page.url.pathname) ? "" : "drawer-mobile"}`}>
   <input id="drawer" type="checkbox" class="drawer-toggle" bind:checked />
   <div bind:this={drawercontent} on:scroll={parseContentScroll} class={`drawer-content`} style="scroll-behavior: smooth; scroll-padding-top: 5rem;">
     <Navbar {drawerContentScrollY} />
@@ -71,7 +75,7 @@
   <div class="drawer-side" style="scroll-behavior: smooth; scroll-padding-top: 5rem;" bind:this={drawersidebar} on:scroll={parseSidebarScroll}>
     <label for="drawer" class="drawer-overlay" />
     <aside class="bg-base-200 w-80">
-      <Sidebar {closeDrawer} {drawerSidebarScrollY} />
+      <Sidebar {closeDrawer} {openDrawer} {drawerSidebarScrollY} />
       <div class="from-base-200 pointer-events-none sticky bottom-0 flex h-20 bg-gradient-to-t to-transparent" />
     </aside>
   </div>

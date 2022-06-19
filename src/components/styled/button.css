@@ -1,5 +1,5 @@
 .btn {
-  @apply font-semibold uppercase;
+  @apply font-semibold uppercase no-underline;
   border-width: var(--border-btn, 1px);
   animation: button-pop var(--animation-btn, 0.25s) ease-out;
   text-transform: var(--btn-text-case, uppercase);
@@ -184,7 +184,9 @@
 
   /* disabled */
   &-disabled,
-  &[disabled] {
+  &-disabled:hover,
+  &[disabled],
+  &[disabled]:hover {
     @apply border-opacity-0 bg-neutral bg-opacity-20 text-base-content text-opacity-20;
   }
 
@@ -213,10 +215,10 @@
       outline: 2px solid hsl(var(--p));
     }
   }
-  & > .btn:not(:first-child) {
+  & > .btn:not(:first-of-type) {
     @apply -ml-px rounded-l-none;
   }
-  & > .btn:not(:last-child) {
+  & > .btn:not(:last-of-type) {
     @apply rounded-r-none;
   }
 }

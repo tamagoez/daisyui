@@ -46,7 +46,7 @@ module.exports = {
 
 - <Translate text="<code>cupcake</code> will be the default theme for light mode" />
 - <Translate text="<code>dark</code> will be the default theme for dark mode" />
-- <Translate text="<code>cmyk</code> can be applied on any HTML tag with <code>data-theme='cupcake'</code>" />
+- <Translate text="<code>cmyk</code> can be applied on any HTML tag with <code>data-theme='cmyk'</code>" />
 
 ```js
 module.exports = {
@@ -110,7 +110,7 @@ module.exports = {
   <div>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info-content flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
     <p>
-      You can also add <a href='/docs/colors' class="link">optional color names</a> to have full control over all colors.
+      <Translate text="You can also add <a href='/docs/colors' class='link'>optional color names</a> to have full control over all colors." />
     </p>
   </div>
 </div>
