@@ -1,8 +1,8 @@
 export let siteStats = {
-  components: "45",
+  components: "47",
   themes: "29",
-  githubStars: "+9,000",
-  npmInstalls: "+400,000",
+  githubStars: "+12,000",
+  npmInstalls: "+1,000,000",
 }
 
 export let siteData = {
@@ -578,6 +578,13 @@ export let pages = [
         icon: "",
         badge: "",
       },
+      {
+        name: "Toast",
+        tags: "toast notification snackbar",
+        href: "/components/toast",
+        icon: "",
+        badge: "",
+      },
     ],
   },
   {
@@ -587,6 +594,13 @@ export let pages = [
         name: "Breadcrumbs",
         tags: "breadcrumbs links",
         href: "/components/breadcrumbs",
+        icon: "",
+        badge: "",
+      },
+      {
+        name: "Bottom navigation",
+        tags: "bottom navigation app bar",
+        href: "/components/bottom-navigation",
         icon: "",
         badge: "",
       },

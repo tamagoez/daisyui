@@ -106,7 +106,7 @@
       --glass-border-opacity: 15%;
     }
     &:focus-visible {
-      outline: 2px solid 0 0 2px currentColor;
+      outline: 2px solid currentColor;
     }
   }
 
@@ -118,7 +118,7 @@
       @apply border-opacity-0 bg-base-content bg-opacity-20;
     }
     &:focus-visible {
-      outline: 2px solid 0 0 2px currentColor;
+      outline: 2px solid currentColor;
     }
   }
   &-link {
@@ -128,7 +128,7 @@
       @apply border-transparent bg-transparent underline;
     }
     &:focus-visible {
-      outline: 2px solid 0 0 2px currentColor;
+      outline: 2px solid currentColor;
     }
   }
 
@@ -215,12 +215,20 @@
       outline: 2px solid hsl(var(--p));
     }
   }
-  & > .btn:not(:first-of-type) {
+  &:not(.btn-group-vertical) > .btn:not(:first-of-type) {
     @apply -ml-px rounded-l-none;
   }
-  & > .btn:not(:last-of-type) {
+  &:not(.btn-group-vertical) > .btn:not(:last-of-type) {
     @apply rounded-r-none;
   }
+  &-vertical {
+    & > .btn:not(:first-of-type) {
+      @apply -mt-px rounded-t-none;
+    }
+    & > .btn:not(:last-of-type) {
+      @apply rounded-b-none;
+    }
+}
 }
 
 @keyframes button-pop {

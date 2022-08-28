@@ -2,6 +2,84 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.24.0](https://github.com/saadeghi/daisyui/compare/v2.23.0...v2.24.0) (2022-08-13)
+
+
+### Features
+
+* refactor `badge` modifier/responsive class name categorization ([3a3e055](https://github.com/saadeghi/daisyui/commit/3a3e05525f458b8e8dea911388364618a9ab1eda))
+
+## [2.23.0](https://github.com/saadeghi/daisyui/compare/v2.22.1...v2.23.0) (2022-08-13)
+
+
+### Features
+
+* refactor `alert` and `radio` modifier/responsive class name categorization ([b58ecea](https://github.com/saadeghi/daisyui/commit/b58eceaaed3e20287d0ce7e9e5d51e9f854ab84a))
+
+
+### Bug Fixes
+
+* [#952](https://github.com/saadeghi/daisyui/issues/952) ([6ef8ad3](https://github.com/saadeghi/daisyui/commit/6ef8ad3fc39a77c16f03391590248dcdfcda6c4f))
+
+### [2.22.1](https://github.com/saadeghi/daisyui/compare/v2.22.0...v2.22.1) (2022-08-12)
+
+
+### Bug Fixes
+
+* [#1001](https://github.com/saadeghi/daisyui/issues/1001) ([4cedd56](https://github.com/saadeghi/daisyui/commit/4cedd563268847f01dfa8114ce0b1133e3b1e4b3))
+* [#960](https://github.com/saadeghi/daisyui/issues/960) ([6b2a1c0](https://github.com/saadeghi/daisyui/commit/6b2a1c0d6cfc4e1f5cab24e47d3de4d2a24bfcb6))
+* grammatical errors and updated keys to match ([#1005](https://github.com/saadeghi/daisyui/issues/1005)) ([bf2365d](https://github.com/saadeghi/daisyui/commit/bf2365d416e02bee61fd85f0d4d68bca97009d07))
+
+## [2.22.0](https://github.com/saadeghi/daisyui/compare/v2.21.0...v2.22.0) (2022-08-04)
+
+
+### Bug Fixes
+
+* [#995](https://github.com/saadeghi/daisyui/issues/995) ([47fbdd8](https://github.com/saadeghi/daisyui/commit/47fbdd8b43c7793a58fe466e8405bbee889cf10b))
+
+## [2.21.0](https://github.com/saadeghi/daisyui/compare/v2.20.0...v2.21.0) (2022-08-04)
+
+## [2.20.0](https://github.com/saadeghi/daisyui/compare/v2.19.1...v2.20.0) (2022-07-23)
+
+
+### Bug Fixes
+
+* [#970](https://github.com/saadeghi/daisyui/issues/970) ([4af523d](https://github.com/saadeghi/daisyui/commit/4af523dd6228722ab7aa73445caa25cb9af31894))
+
+### [2.19.1](https://github.com/saadeghi/daisyui/compare/v2.19.0...v2.19.1) (2022-07-20)
+
+
+### Bug Fixes
+
+* [#957](https://github.com/saadeghi/daisyui/issues/957) ([8f8d7fb](https://github.com/saadeghi/daisyui/commit/8f8d7fbe21d420976a759fff82e1df1e7c3b9317))
+
+## [2.19.0](https://github.com/saadeghi/daisyui/compare/v2.18.2...v2.19.0) (2022-07-09)
+
+
+### Features
+
+* add new `toast` component ([b57457f](https://github.com/saadeghi/daisyui/commit/b57457f3c3039ad9fabcf551e4f50ca19c754674))
+
+### [2.18.2](https://github.com/saadeghi/daisyui/compare/v2.18.0...v2.18.2) (2022-07-09)
+
+## [2.18.0](https://github.com/saadeghi/daisyui/compare/v2.17.0...v2.18.0) (2022-07-03)
+
+### Features
+* add new `bottom-navigation` component
+
+### Bug Fixes
+
+* spelling correction ([#905](https://github.com/saadeghi/daisyui/issues/905)) ([d6a9546](https://github.com/saadeghi/daisyui/commit/d6a9546ef29e83908b4c5597c81afd722632f5c8))
+
+## [2.17.0](https://github.com/saadeghi/daisyui/compare/v2.16.0...v2.17.0) (2022-06-22)
+
+
+### Features
+
+* add `btn-group-vertical` ([41ce08c](https://github.com/saadeghi/daisyui/commit/41ce08c18dede1524627c2395ec5f611711d4907))
+
+## [2.16.0](https://github.com/saadeghi/daisyui/compare/v2.15.4...v2.16.0) (2022-06-22)
+
 ### [2.15.4](https://github.com/saadeghi/daisyui/compare/v2.15.3...v2.15.4) (2022-06-15)
 
 ### [2.15.3](https://github.com/saadeghi/daisyui/compare/v2.15.2...v2.15.3) (2022-06-10)
