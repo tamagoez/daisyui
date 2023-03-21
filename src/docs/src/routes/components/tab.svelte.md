@@ -14,11 +14,12 @@ published: true
 <ClassTable
 data="{[
   { type:'component', class: 'tabs', desc: 'Container of tab items' },
+  { type:'modifier', class: 'tabs-boxed', desc: 'Adds a box style to tabs container' },
   { type:'component', class: 'tab', desc: 'A tab item' },
   { type:'modifier', class: 'tab-active', desc: 'For the active tab' },
+  { type:'modifier', class: 'tab-disabled', desc: 'For a visually disabled tab' },
   { type:'modifier', class: 'tab-bordered', desc: 'Adds bottom border to tab item' },
   { type:'modifier', class: 'tab-lifted', desc: 'Adds lifted style to tab item' },
-  { type:'modifier', class: 'tabs-boxed', desc: 'Adds a box style to tabs container' },
   { type:'responsive', class: 'tab-xs', desc: 'Shows tab in extra small size' },
   { type:'responsive', class: 'tab-sm', desc: 'Shows tab in small size' },
   { type:'responsive', class: 'tab-md', desc: 'Shows tab in medium (default) size' },
@@ -39,6 +40,13 @@ data="{[
   <a class="$$tab">Tab 3</a>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$tabs">
+  <a className="$$tab">Tab 1</a> 
+  <a className="$$tab $$tab-active">Tab 2</a> 
+  <a className="$$tab">Tab 3</a>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Bordered">
@@ -52,6 +60,13 @@ data="{[
   <a class="$$tab $$tab-bordered">Tab 1</a> 
   <a class="$$tab $$tab-bordered $$tab-active">Tab 2</a> 
   <a class="$$tab $$tab-bordered">Tab 3</a>
+</div>`
+}</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$tabs">
+  <a className="$$tab $$tab-bordered">Tab 1</a> 
+  <a className="$$tab $$tab-bordered $$tab-active">Tab 2</a> 
+  <a className="$$tab $$tab-bordered">Tab 3</a>
 </div>`
 }</pre>
 </Component>
@@ -69,6 +84,13 @@ data="{[
   <a class="$$tab $$tab-lifted">Tab 3</a>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$tabs">
+  <a className="$$tab $$tab-lifted">Tab 1</a> 
+  <a className="$$tab $$tab-lifted $$tab-active">Tab 2</a> 
+  <a className="$$tab $$tab-lifted">Tab 3</a>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Boxed">
@@ -82,6 +104,13 @@ data="{[
   <a class="$$tab">Tab 1</a> 
   <a class="$$tab $$tab-active">Tab 2</a> 
   <a class="$$tab">Tab 3</a>
+</div>`
+}</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$tabs tabs-boxed">
+  <a className="$$tab">Tab 1</a> 
+  <a className="$$tab $$tab-active">Tab 2</a> 
+  <a className="$$tab">Tab 3</a>
 </div>`
 }</pre>
 </Component>
@@ -133,6 +162,32 @@ data="{[
   <a class="$$tab $$tab-lg $$tab-lifted">Large</a> 
   <a class="$$tab $$tab-lg $$tab-lifted $$tab-active">Large</a> 
   <a class="$$tab $$tab-lg $$tab-lifted">Large</a>
+</div>`
+}</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<!-- xs -->
+<div className="$$tabs">
+  <a className="$$tab $$tab-xs $$tab-lifted">Tiny</a> 
+  <a className="$$tab $$tab-xs $$tab-lifted $$tab-active">Tiny</a> 
+  <a className="$$tab $$tab-xs $$tab-lifted">Tiny</a>
+</div>
+<!-- sm -->
+<div className="$$tabs">
+  <a className="$$tab $$tab-sm $$tab-lifted">Small</a> 
+  <a className="$$tab $$tab-sm $$tab-lifted $$tab-active">Small</a> 
+  <a className="$$tab $$tab-sm $$tab-lifted">Small</a>
+</div>
+<!-- md -->
+<div className="$$tabs">
+  <a className="$$tab $$tab-lifted">Normal</a> 
+  <a className="$$tab $$tab-lifted $$tab-active">Normal</a> 
+  <a className="$$tab $$tab-lifted">Normal</a>
+</div>
+<!-- lg -->
+<div className="$$tabs">
+  <a className="$$tab $$tab-lg $$tab-lifted">Large</a> 
+  <a className="$$tab $$tab-lg $$tab-lifted $$tab-active">Large</a> 
+  <a className="$$tab $$tab-lg $$tab-lifted">Large</a>
 </div>`
 }</pre>
 </Component>

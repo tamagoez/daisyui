@@ -1,5 +1,19 @@
 .card {
   @apply rounded-box;
+  :where(figure:first-child) {
+    @apply overflow-hidden;
+    border-start-start-radius: inherit;
+    border-start-end-radius: inherit;
+    border-end-start-radius: unset;
+    border-end-end-radius: unset;
+  }
+  :where(figure:last-child) {
+    @apply overflow-hidden;
+    border-start-start-radius: unset;
+    border-start-end-radius: unset;
+    border-end-start-radius: inherit;
+    border-end-end-radius: inherit;
+  }
   &:focus-visible {
     outline: 2px solid currentColor;
     outline-offset: 2px;
@@ -29,5 +43,11 @@
   }
   &.image-full > &-body {
     @apply z-20 text-neutral-content;
+  }
+  &.image-full {
+    :where(figure) {
+      @apply overflow-hidden;
+      border-radius: inherit;
+    }
   }
 }

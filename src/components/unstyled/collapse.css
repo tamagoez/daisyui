@@ -1,5 +1,9 @@
+.collapse.collapse {
+  @apply visible;
+}
 .collapse {
   @apply relative grid overflow-hidden;
+  grid-template-rows: 1fr auto;
 }
 .collapse-title,
 .collapse > input[type="checkbox"],
@@ -18,5 +22,5 @@
 .collapse:not(.collapse-close)
   input[type="checkbox"]:checked
   ~ .collapse-content {
-  max-height: 9000px;
+  max-height: none;
 }

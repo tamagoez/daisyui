@@ -14,7 +14,7 @@
 
   /* default btn */
   & {
-    @apply border-neutral bg-neutral text-neutral-content;
+    @apply border-neutral bg-neutral text-neutral-content no-underline;
     &:hover,
     &-active {
       @apply border-neutral-focus bg-neutral-focus;
@@ -122,7 +122,7 @@
     }
   }
   &-link {
-    @apply border-transparent bg-transparent text-primary;
+    @apply border-transparent bg-transparent text-primary underline;
     &:hover,
     &.btn-active {
       @apply border-transparent bg-transparent underline;
@@ -135,48 +135,56 @@
   /* outline */
   &-outline {
     @apply border-current bg-transparent text-base-content;
-    &:hover {
+    &:hover,
+    &.btn-active {
       @apply border-base-content bg-base-content text-base-100;
     }
     &.btn-primary {
       @apply text-primary;
-      &:hover {
+      &:hover,
+      &.btn-active {
         @apply border-primary-focus bg-primary-focus text-primary-content;
       }
     }
     &.btn-secondary {
       @apply text-secondary;
-      &:hover {
+      &:hover,
+      &.btn-active {
         @apply border-secondary-focus bg-secondary-focus text-secondary-content;
       }
     }
     &.btn-accent {
       @apply text-accent;
-      &:hover {
+      &:hover,
+      &.btn-active {
         @apply border-accent-focus bg-accent-focus text-accent-content;
       }
     }
     &.btn-success {
       @apply text-success;
-      &:hover {
+      &:hover,
+      &.btn-active {
         @apply border-success bg-success text-success-content;
       }
     }
     &.btn-info {
       @apply text-info;
-      &:hover {
+      &:hover,
+      &.btn-active {
         @apply border-info bg-info text-info-content;
       }
     }
     &.btn-warning {
       @apply text-warning;
-      &:hover {
+      &:hover,
+      &.btn-active {
         @apply border-warning bg-warning text-warning-content;
       }
     }
     &.btn-error {
       @apply text-error;
-      &:hover {
+      &:hover,
+      &.btn-active {
         @apply border-error bg-error text-error-content;
       }
     }
@@ -215,20 +223,6 @@
       outline: 2px solid hsl(var(--p));
     }
   }
-  &:not(.btn-group-vertical) > .btn:not(:first-of-type) {
-    @apply -ml-px rounded-l-none;
-  }
-  &:not(.btn-group-vertical) > .btn:not(:last-of-type) {
-    @apply rounded-r-none;
-  }
-  &-vertical {
-    & > .btn:not(:first-of-type) {
-      @apply -mt-px rounded-t-none;
-    }
-    & > .btn:not(:last-of-type) {
-      @apply rounded-b-none;
-    }
-}
 }
 
 @keyframes button-pop {

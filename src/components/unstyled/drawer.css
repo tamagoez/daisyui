@@ -28,7 +28,7 @@
     @apply z-0 col-start-1 row-start-1 overflow-y-auto;
   }
   & ~ .drawer-side {
-    @apply col-start-1 row-start-1 grid max-h-screen;
+    @apply col-start-1 row-start-1 grid max-h-screen overflow-x-hidden;
     & > .drawer-overlay {
       @apply invisible col-start-1 row-start-1 opacity-0;
     }
@@ -38,7 +38,7 @@
   }
   &:checked {
     & ~ .drawer-side {
-      @apply overflow-y-auto;
+      @apply overflow-y-auto overflow-x-hidden isolate;
       & > .drawer-overlay {
         @apply visible;
       }
@@ -54,6 +54,15 @@
 }
 [dir="rtl"] .drawer-toggle:checked ~ .drawer-side > .drawer-overlay + * {
   @apply translate-x-0;
+}
+[dir="rtl"] .drawer.drawer-end > .drawer-toggle ~ .drawer-side > .drawer-overlay + * {
+  --tw-translate-x: -100%;
+}
+[dir="rtl"] .drawer.drawer-end > .drawer-toggle:checked ~ .drawer-side > .drawer-overlay + * {
+  --tw-translate-x: 0px;
+}
+[dir="rtl"] .drawer.drawer-end > .drawer-toggle:checked ~ .drawer-content {
+  --tw-translate-x: 0.5rem;
 }
 
 @media (min-width: 1024px) {

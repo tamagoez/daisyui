@@ -27,7 +27,7 @@ data="{[
 
 <Component title="Card">
 <div class="card w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -38,7 +38,7 @@ data="{[
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="$$card-body">
     <h2 class="$$card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -48,11 +48,23 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-base-100 shadow-xl">
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="$$card-body">
+    <h2 className="$$card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Compact card (less padding for `card-body`)">
 <div class="card w-96 bg-base-100 card-compact shadow-xl">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -63,7 +75,7 @@ data="{[
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card $$card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="$$card-body">
     <h2 class="$$card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -73,11 +85,23 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card $$card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="$$card-body">
+    <h2 className="$$card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Card with badge">
 <div class="card w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title">
       Shoes!
@@ -92,7 +116,7 @@ data="{[
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="$$card-body">
     <h2 class="$$card-title">
       Shoes!
@@ -106,6 +130,22 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-base-100 shadow-xl">
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="$$card-body">
+    <h2 className="$$card-title">
+      Shoes!
+      <div className="$$badge $$badge-secondary">NEW</div>
+    </h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="$$card-actions justify-end">
+      <div className="$$badge $$badge-outline">Fashion</div> 
+      <div className="$$badge $$badge-outline">Products</div>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Card with bottom image">
@@ -114,7 +154,7 @@ data="{[
     <h2 class="card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
   </div>
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card w-96 bg-base-100 shadow-xl">
@@ -122,7 +162,16 @@ data="{[
     <h2 class="$$card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
   </div>
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+</div>`
+}</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-base-100 shadow-xl">
+  <div className="$$card-body">
+    <h2 className="$$card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+  </div>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
 </div>`
 }</pre>
 </Component>
@@ -130,7 +179,7 @@ data="{[
 <Component title="Card with centered content and paddings">
 <div class="card w-96 bg-base-100 shadow-xl">
   <figure class="px-10 pt-10">
-    <img src="https://placeimg.com/400/225/arch" alt="Shoes" class="rounded-xl" />
+    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
   </figure>
   <div class="card-body items-center text-center">
     <h2 class="card-title">Shoes!</h2>
@@ -143,7 +192,7 @@ data="{[
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card w-96 bg-base-100 shadow-xl">
   <figure class="px-10 pt-10">
-    <img src="https://placeimg.com/400/225/arch" alt="Shoes" class="rounded-xl" />
+    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
   </figure>
   <div class="$$card-body items-center text-center">
     <h2 class="$$card-title">Shoes!</h2>
@@ -154,11 +203,25 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-base-100 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
+  </figure>
+  <div className="$$card-body items-center text-center">
+    <h2 className="$$card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="$$card-actions">
+      <button className="$$btn $$btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Card with image overlay">
 <div class="card w-96 bg-base-100 shadow-xl image-full">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -169,12 +232,24 @@ data="{[
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card w-96 bg-base-100 shadow-xl image-full">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div class="$$card-body">
     <h2 class="$$card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div class="$$card-actions justify-end">
       <button class="$$btn $$btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>`
+}</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-base-100 shadow-xl image-full">
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="$$card-body">
+    <h2 className="$$card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Buy Now</button>
     </div>
   </div>
 </div>`
@@ -202,6 +277,17 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-base-100 shadow-xl">
+  <div className="$$card-body">
+    <h2 className="$$card-title">Card title!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Card with custom color">
@@ -221,6 +307,17 @@ data="{[
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div class="$$card-actions justify-end">
       <button class="$$btn">Buy Now</button>
+    </div>
+  </div>
+</div>`
+}</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-primary text-primary-content">
+  <div className="$$card-body">
+    <h2 className="$$card-title">Card title!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn">Buy Now</button>
     </div>
   </div>
 </div>`
@@ -250,6 +347,18 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-neutral text-neutral-content">
+  <div className="$$card-body items-center text-center">
+    <h2 className="$$card-title">Cookies!</h2>
+    <p>We are using cookies for no reason.</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Accept</button>
+      <button className="$$btn $$btn-ghost">Deny</button>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Card with action on top">
@@ -275,11 +384,23 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 bg-base-100 shadow-xl">
+  <div className="$$card-body">
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-square $$btn-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /></svg>
+      </button>
+    </div>
+    <p>We are using cookies for no reason.</p>
+  </div>
+</div>`
+}</pre>
 </Component>
 
-<Component title="Card glass" bg="https://placeimg.com/1000/500/arch">
+<Component title="Card glass" bg="/images/stock/photo-1481026469463-66327c86e544.jpg">
 <div class="card w-96 glass">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="car!"></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
   <div class="card-body">
     <h2 class="card-title">Life hack</h2>
     <p>How to park your car at your garage?</p>
@@ -290,7 +411,7 @@ data="{[
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card w-96 glass">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="car!"></figure>
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
   <div class="$$card-body">
     <h2 class="$$card-title">Life hack</h2>
     <p>How to park your car at your garage?</p>
@@ -300,11 +421,23 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card w-96 glass">
+  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+  <div className="$$card-body">
+    <h2 className="$$card-title">Life hack</h2>
+    <p>How to park your car at your garage?</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Learn now!</button>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Card with image on side">
 <div class="card card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/200/280/arch" alt="Movie"></figure>
+  <figure><img src="/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie"/></figure>
   <div class="card-body">
     <h2 class="card-title">New movie is released!</h2>
     <p>Click the button to watch on Jetflix app.</p>
@@ -315,7 +448,7 @@ data="{[
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card $$card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/200/280/arch" alt="Movie"></figure>
+  <figure><img src="/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie"/></figure>
   <div class="$$card-body">
     <h2 class="$$card-title">New movie is released!</h2>
     <p>Click the button to watch on Jetflix app.</p>
@@ -325,11 +458,23 @@ data="{[
   </div>
 </div>`
 }</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card $$card-side bg-base-100 shadow-xl">
+  <figure><img src="/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie"/></figure>
+  <div className="$$card-body">
+    <h2 className="$$card-title">New movie is released!</h2>
+    <p>Click the button to watch on Jetflix app.</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Watch</button>
+    </div>
+  </div>
+</div>`
+}</pre>
 </Component>
 
 <Component title="Responsive card (vertical on small screen, horizontal on large screen)">
 <div class="card lg:card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/400/arch" alt="Album"></figure>
+  <figure><img src="/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
   <div class="card-body">
     <h2 class="card-title">New album is released!</h2>
     <p>Click the button to listen on Spotiwhy app.</p>
@@ -340,12 +485,24 @@ data="{[
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$card lg:$$card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/400/arch" alt="Album"></figure>
+  <figure><img src="/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
   <div class="$$card-body">
     <h2 class="$$card-title">New album is released!</h2>
     <p>Click the button to listen on Spotiwhy app.</p>
     <div class="$$card-actions justify-end">
       <button class="$$btn $$btn-primary">Listen</button>
+    </div>
+  </div>
+</div>`
+}</pre>
+<pre slot="react" use:replace={{ to: $prefix }}>{
+`<div className="$$card lg:$$card-side bg-base-100 shadow-xl">
+  <figure><img src="/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+  <div className="$$card-body">
+    <h2 className="$$card-title">New album is released!</h2>
+    <p>Click the button to listen on Spotiwhy app.</p>
+    <div className="$$card-actions justify-end">
+      <button className="$$btn $$btn-primary">Listen</button>
     </div>
   </div>
 </div>`

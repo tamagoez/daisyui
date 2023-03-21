@@ -1,5 +1,5 @@
 .menu {
-  @apply flex flex-col;
+  @apply flex flex-col flex-wrap;
   &.horizontal {
     @apply inline-flex flex-row;
     :where(li) {
@@ -7,8 +7,8 @@
     }
   }
 }
-.menu :where(li) {
-  @apply relative flex flex-col flex-wrap items-stretch;
+:where(.menu li) {
+  @apply relative flex flex-col flex-wrap items-stretch shrink-0;
 }
 .menu :where(li:not(.menu-title)) > :where(*:not(ul)) {
   @apply flex;

@@ -1,8 +1,8 @@
 export let siteStats = {
-  components: "47",
+  components: "49",
   themes: "29",
-  githubStars: "+12,000",
-  npmInstalls: "+1,000,000",
+  githubStars: "+18,000",
+  npmInstalls: "+3,000,000",
 }
 
 export let siteData = {
@@ -134,27 +134,7 @@ export let themes = [
 
 export let exampleRepos = [
   {
-    name: "Vite",
-    href: "https://stackblitz.com/edit/daisyui-vite",
-    logos: ["/logos/vite.svg"],
-  },
-  {
-    name: "Svelte (Vite)",
-    href: "https://stackblitz.com/edit/daisyui-svelte-vite",
-    logos: ["/logos/svelte.svg", "/logos/vite.svg"],
-  },
-  {
-    name: "Vue.js 3",
-    href: "https://stackblitz.com/edit/daisyui-vue-vite",
-    logos: ["/logos/vue.svg"],
-  },
-  {
-    name: "React (Vite)",
-    href: "https://stackblitz.com/edit/daisyui-react-vite",
-    logos: ["/logos/react.svg", "/logos/vite.svg"],
-  },
-  {
-    name: "Nextjs",
+    name: "Next.js",
     href: "https://stackblitz.com/edit/daisyui-nextjs",
     logos: ["/logos/nextjs.svg"],
   },
@@ -164,19 +144,44 @@ export let exampleRepos = [
     logos: ["/logos/svelte.svg"],
   },
   {
-    name: "Remix",
-    href: "https://stackblitz.com/edit/daisyui-remix",
-    logos: ["/logos/remix.svg"],
+    name: "Nuxt 3",
+    href: "https://stackblitz.com/edit/daisyui-nuxt3",
+    logos: ["/logos/nuxtjs.svg"],
   },
   {
-    name: "Nuxtjs 3",
-    href: "https://stackblitz.com/edit/daisyui-nuxtjs-svr578",
-    logos: ["/logos/nuxtjs.svg"],
+    name: "Astro",
+    href: "https://stackblitz.com/edit/daisyui-astro",
+    logos: ["/logos/astro.svg"],
+  },
+  {
+    name: "Vue.js 3",
+    href: "https://stackblitz.com/edit/daisyui-vue-vite",
+    logos: ["/logos/vue.svg"],
   },
   {
     name: "Solid.js",
     href: "https://stackblitz.com/edit/daisyui-solidjs",
     logos: ["/logos/solidjs.svg", "/logos/vite.svg"],
+  },
+  {
+    name: "Vite",
+    href: "https://stackblitz.com/edit/daisyui-vite",
+    logos: ["/logos/vite.svg"],
+  },
+  {
+    name: "React (Vite)",
+    href: "https://stackblitz.com/edit/daisyui-react-vite",
+    logos: ["/logos/react.svg", "/logos/vite.svg"],
+  },
+  {
+    name: "Svelte (Vite)",
+    href: "https://stackblitz.com/edit/daisyui-svelte-vite",
+    logos: ["/logos/svelte.svg", "/logos/vite.svg"],
+  },
+  {
+    name: "Remix",
+    href: "https://stackblitz.com/edit/daisyui-remix",
+    logos: ["/logos/remix.svg"],
   },
   {
     name: "PostCSS",
@@ -189,17 +194,17 @@ export let exampleRepos = [
     logos: ["/logos/react.svg", "/logos/webpack.svg"],
   },
   {
-    name: "Preact (Vite)",
+    name: "Qwik",
+    href: "https://stackblitz.com/edit/daisyui-qwik",
+    logos: ["/logos/qwik.svg", "/logos/vite.svg"],
+  },
+  {
+    name: "Preact",
     href: "https://stackblitz.com/edit/daisyui-preact-vite",
     logos: ["/logos/preact.svg", "/logos/vite.svg"],
   },
   {
-    name: "Angular",
-    href: "https://stackblitz.com/edit/daisyui-angular",
-    logos: ["/logos/angular.svg"],
-  },
-  {
-    name: "Lit (Vite)",
+    name: "Lit",
     href: "https://stackblitz.com/edit/daisyui-lit-vite",
     logos: ["/logos/lit.svg", "/logos/vite.svg"],
   },
@@ -209,9 +214,9 @@ export let exampleRepos = [
     logos: ["/logos/svelte.svg", "/logos/rollup.svg"],
   },
   {
-    name: "Astro",
-    href: "https://stackblitz.com/edit/daisyui-astro",
-    logos: ["/logos/astro.svg"],
+    name: "Angular",
+    href: "https://stackblitz.com/edit/daisyui-angular",
+    logos: ["/logos/angular.svg"],
   },
   {
     name: "11ty",
@@ -227,6 +232,11 @@ export let exampleRepos = [
     name: "React (CRA)",
     href: "https://stackblitz.com/edit/daisyui-react-cra",
     logos: ["/logos/react.svg", "/logos/cra.svg"],
+  },
+  {
+    name: "Elm",
+    href: "https://stackblitz.com/edit/elm-daisyui",
+    logos: ["/logos/elm.svg", "/logos/vite.svg"],
   },
   {
     name: "CDN (Tailwind)",
@@ -297,7 +307,7 @@ export let pages = [
         tags: "themes disable custom color generator",
         href: "/docs/themes",
         icon: '<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" /></svg>',
-        badge: "updated",
+        badge: "",
       },
       {
         name: "Theme Generator",
@@ -330,7 +340,7 @@ export let pages = [
         tags: "dropdown popover menu listbox",
         href: "/components/dropdown",
         icon: "",
-        badge: "",
+        badge: "updated",
       },
       {
         name: "Modal",
@@ -387,6 +397,13 @@ export let pages = [
         badge: "",
       },
       {
+        name: "Chat bubble",
+        tags: "chat bubble dialog message messenger",
+        href: "/components/chat",
+        icon: "",
+        badge: "New",
+      },
+      {
         name: "Collapse",
         tags: "collapse accordion",
         href: "/components/collapse",
@@ -440,7 +457,7 @@ export let pages = [
         tags: "tooltip",
         href: "/components/tooltip",
         icon: "",
-        badge: "",
+        badge: "updated",
       },
     ],
   },
@@ -452,28 +469,28 @@ export let pages = [
         tags: "checkbox ✅",
         href: "/components/checkbox",
         icon: "",
-        badge: "",
+        badge: "updated",
       },
       {
-        name: "Text input",
-        tags: "text input",
-        href: "/components/input",
+        name: "File input",
+        tags: "file upload",
+        href: "/components/file-input",
         icon: "",
-        badge: "",
+        badge: "New",
       },
       {
         name: "Radio",
         tags: "radio",
         href: "/components/radio",
         icon: "",
-        badge: "",
+        badge: "updated",
       },
       {
         name: "Range",
         tags: "range slider",
         href: "/components/range",
         icon: "",
-        badge: "",
+        badge: "updated",
       },
       {
         name: "Rating",
@@ -490,6 +507,13 @@ export let pages = [
         badge: "",
       },
       {
+        name: "Text input",
+        tags: "text input",
+        href: "/components/input",
+        icon: "",
+        badge: "",
+      },
+      {
         name: "Textarea",
         tags: "textarea",
         href: "/components/textarea",
@@ -501,7 +525,7 @@ export let pages = [
         tags: "toggle switch checkbox",
         href: "/components/toggle",
         icon: "",
-        badge: "",
+        badge: "updated",
       },
     ],
   },
@@ -534,7 +558,7 @@ export let pages = [
         tags: "drawer sidebar menu",
         href: "/components/drawer",
         icon: "",
-        badge: "updated",
+        badge: "",
       },
       {
         name: "Footer",
@@ -609,7 +633,7 @@ export let pages = [
         tags: "link href anchor 🔗",
         href: "/components/link",
         icon: "",
-        badge: "",
+        badge: "updated",
       },
       {
         name: "Menu",

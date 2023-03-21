@@ -5,11 +5,13 @@
 .tooltip:before {
   @apply absolute;
   pointer-events: none;
+  z-index: 1;
 }
 .tooltip:before {
-  content: attr(data-tip);
+  content: var(--tw-content);
+  --tw-content: attr(data-tip);
 }
-.tooltip {
+.tooltip, .tooltip-top {
   &:before {
     transform: translateX(-50%);
     top: auto;
